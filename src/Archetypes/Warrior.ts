@@ -2,7 +2,7 @@ import { EnergyType } from '../Energy';
 import Archetype from './Archetype';
 
 export default class Warrior extends Archetype {
-  private _energyType: EnergyType = 'mana';
+  private _energyType: EnergyType = 'stamina';
   private static _counter = 0;
 
   constructor(name: string) {
